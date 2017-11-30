@@ -16,4 +16,5 @@ x_train, x_test, y_train, y_test = train_test_split(x, y, random_state=1,test_si
 mx = LogisticRegression()
 mx.fit(x_train,y_train)
 dacc=mx.score(x_test, y_test)
+#测试git
 print('\n8# mx:mx_sum,kok:{0:.2f}%'.format(dacc))
